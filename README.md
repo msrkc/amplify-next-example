@@ -17,4 +17,10 @@ export const authConfig = {
 };
 ```
 
+##### demo user
+
+```
+username: test
+password: test123-
+```
 
