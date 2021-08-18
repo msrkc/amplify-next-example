@@ -2,7 +2,7 @@ import useUserStatus from "../hooks/useUserStatus";
 import { signOut } from "../services/amplify";
 
 export default function Header() {
-  const user = useUserStatus();
+  const { user } = useUserStatus();
 
   return (
     <nav className="container mx-auto p-4 pt-6 mb-4 flex place-items-center text-gray-700">
